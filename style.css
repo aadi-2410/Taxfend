@@ -540,6 +540,7 @@ input:focus-visible, textarea:focus-visible{
     }
     .contact-form > .flex-1{
         width: 90%;
+        margin: auto;
     }
     .contact-form.contact-page .flex-1:first-child{
         display: unset;
