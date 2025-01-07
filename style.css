@@ -3,6 +3,10 @@ a, p, ul{
     margin-bottom: 0px;
 }
 
+p{
+    font-size: 16px;
+}
+
 .overlay{
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0; 
@@ -92,6 +96,7 @@ input:focus-visible, textarea:focus-visible{
     left: 0px;
     top: 0px;
     width: 230px;
+    z-index: -1;
 }
 
 .right-dots-img{
@@ -598,6 +603,14 @@ input:focus-visible, textarea:focus-visible{
     top: 10px;
 }
 
+.blog-div h1 a{
+    color: #27A3D6;
+}
+
+.blog-div p a{
+    color: black;
+}
+
 @media (max-width: 992px) {
     .header-img{
         display: none;
@@ -658,6 +671,9 @@ input:focus-visible, textarea:focus-visible{
 }
 
 @media (max-width: 767px) {
+    .blog-right-div{
+        margin-top: 24px;
+    }
     .footer-head-div{
         flex-wrap: wrap;
     }
