@@ -322,10 +322,6 @@ input:focus-visible, textarea:focus-visible{
     background-position: center;
 }
 
-.first-footer p{
-    font-size: 14px;
-}
-
 .footer-logo{
     background-color: white;
     padding: 5px 15px;
@@ -820,14 +816,5 @@ input:focus-visible, textarea:focus-visible{
     .footer-head-div a{
         color: white;
         font-size: 14px;
-    }
-    .blog-div img{
-        max-height: 200px;
-    }
-    .blog-content a{
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 3;
-        overflow: hidden;
     }
 }
